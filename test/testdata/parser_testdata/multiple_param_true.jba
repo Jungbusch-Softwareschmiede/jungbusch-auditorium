@@ -1,0 +1,8 @@
+{
+    id:"test"
+    requireselevatedprivileges: "true"
+    module:"ExecuteCommand"
+    command:"test"
+    requireselevatedprivileges: "true"
+    passed: if ("test")
+},

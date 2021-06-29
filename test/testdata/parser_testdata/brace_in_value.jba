@@ -1,0 +1,6 @@
+{
+    module:"FileContent"
+    stepid:"1"
+    file:"test"
+    %test% = "foo{bar"
+},

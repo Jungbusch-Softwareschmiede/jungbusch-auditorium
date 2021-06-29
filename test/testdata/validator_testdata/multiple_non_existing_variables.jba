@@ -1,0 +1,18 @@
+{
+    id:"testmodule"
+    module: "ExecuteCommand"
+    command: "hostname"
+    %testvar% = %testvar1%
+    {
+        id:"testmodule1"
+        module: "ExecuteCommand"
+        command: "hostname"
+        %testvar2% = %testvar%
+        {
+            id:"testmodule2"
+            module: "ExecuteCommand"
+            command: "hostname"
+            %testvar3% = %testvar2%
+        },
+    },
+},

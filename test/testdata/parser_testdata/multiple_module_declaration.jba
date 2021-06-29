@@ -1,0 +1,8 @@
+{
+    id:"testmodule"
+    module:"ExecuteCommand"
+    command:"test"
+    passed: if ("test")
+    module:"FileContent"
+    file:"test"
+},

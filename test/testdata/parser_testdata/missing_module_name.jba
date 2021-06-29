@@ -1,0 +1,5 @@
+{
+    id:"testmodule"
+    command:"test"
+    passed: if ("test")
+},

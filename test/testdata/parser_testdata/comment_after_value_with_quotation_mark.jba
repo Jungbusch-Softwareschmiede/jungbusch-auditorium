@@ -1,0 +1,7 @@
+{
+    %test% = "test" // foo"bar
+    id:"testmodule"
+    module:"ExecuteCommand"
+    command:"test"
+    passed: if ("test")
+},

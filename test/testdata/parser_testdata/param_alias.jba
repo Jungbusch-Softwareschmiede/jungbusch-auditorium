@@ -1,0 +1,7 @@
+{
+    id:"testmodule"
+    module:"FileContent"
+    datei:"test"
+    grep:"test"
+    passed: if ("test")
+},

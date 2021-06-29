@@ -1,0 +1,10 @@
+{
+    id:"testmodule"
+    module:"ExecuteCommand"
+    command:"test"
+    grep:"test1"
+    module:"FileContent"
+    file:"test"
+    grep:"test2"
+    passed: if ("test")
+},

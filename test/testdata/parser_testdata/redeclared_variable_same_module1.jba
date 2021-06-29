@@ -1,0 +1,8 @@
+{
+    id:"testmodule"
+    module:"ExecuteCommand"
+    command:"test"
+    %test% = "test"
+    passed: if ("test")
+    %test% = "foo"
+},

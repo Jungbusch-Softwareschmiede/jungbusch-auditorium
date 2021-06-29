@@ -1,0 +1,18 @@
+{
+    id:"testmodule"
+    module:"ExecuteCommand"
+    command:"test" // test
+    passed: if ("test")
+},
+{
+    id:"testmodule2"
+    module:"Script"
+    script:`test` // test
+},
+{
+    id:"testmodule3"
+    module:"Script"
+    script:`test; // test
+    test;  // test
+    `
+},

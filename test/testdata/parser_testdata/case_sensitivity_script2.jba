@@ -1,0 +1,9 @@
+{
+    %test% = "%/test/testfile%"
+    id:"testmodule"
+    module:"Script"
+    script:`function runModule(){
+        return Test;
+    }
+    runModule();`
+},

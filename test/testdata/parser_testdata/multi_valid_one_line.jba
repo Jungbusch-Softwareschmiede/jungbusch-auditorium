@@ -1,0 +1,5 @@
+{
+    id:"testmodule"
+    module:"Script"
+    script:`meinscript`
+},

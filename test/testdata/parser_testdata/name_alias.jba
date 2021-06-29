@@ -1,0 +1,6 @@
+{
+    id:"testmodule"
+    module:"perms"
+    path:"test"
+    passed: if ("test")
+},

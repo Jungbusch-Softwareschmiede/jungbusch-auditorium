@@ -1,0 +1,6 @@
+{
+    id:"testmodule"
+    mod ule:"ExecuteCommand"
+    command:"test"
+    passed: if ("test")
+},

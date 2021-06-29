@@ -1,0 +1,7 @@
+{
+    id:"testmodule"
+    module:"ExecuteCommand"
+    command:"test"
+    print:"das ist eine printausgabe"
+    passed: if ("test")
+},

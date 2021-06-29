@@ -1,0 +1,14 @@
+{
+    %test% = %passed%
+    id:"testmodule1"
+    module:"ExecuteCommand"
+    command:"test"
+    passed: if ("test")
+    {
+        condition:if("%Test%")
+        id:"testmodul2"
+        module:"ExecuteCommand"
+        command:"test"
+        passed: if("test")
+    },
+},

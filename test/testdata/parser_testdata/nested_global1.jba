@@ -1,0 +1,13 @@
+{
+    %g_test% = "test"
+    id:"testmodule"
+    module:"ExecuteCommand"
+    command:"test"
+    passed: if ("test")
+    {
+       id:"testmodule2"
+       module:"ExecuteCommand"
+       command:"test"
+       passed: if ("test")
+    },
+},

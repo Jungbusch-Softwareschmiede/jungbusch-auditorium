@@ -1,0 +1,6 @@
+{
+    id:"testmodule"
+    module:"ExecuteCommand"
+    command:"te=st"
+    passed: if ("test")
+},

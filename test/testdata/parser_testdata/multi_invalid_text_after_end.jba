@@ -1,0 +1,8 @@
+{
+    id:"testmodule"
+    module:"Script"
+    script:`meinscript
+    wdadwafd
+    test123
+    `dwa
+},

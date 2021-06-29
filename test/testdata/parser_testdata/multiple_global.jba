@@ -1,0 +1,32 @@
+{
+    %g_test1% = "test"
+    %g_test2% = "test"
+    id:"testmodule1"
+    module:"ExecuteCommand"
+    command:"test"
+    passed: if ("test")
+},
+{
+    %g_test3% = "test"
+    id:"testmodule2"
+    module:"ExecuteCommand"
+    command:"test"
+    passed: if ("test")
+},
+{
+    %g_test4% = "test"
+    %g_test5% = "test"
+    %g_test6% = "test"
+    %test1% = "test"
+    id:"testmodule3"
+    module:"ExecuteCommand"
+    command:"test"
+    passed: if ("test")
+},
+{
+    %test2% = "test"
+    id:"testmodule4"
+    module:"ExecuteCommand"
+    command:"test"
+    passed: if ("test")
+},

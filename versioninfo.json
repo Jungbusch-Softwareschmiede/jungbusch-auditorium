@@ -1,0 +1,30 @@
+{
+  "FixedFileInfo": {
+    "FileVersion": {
+      "Major": 1,
+      "Minor": 0,
+      "Patch": 0,
+      "Build": 0
+    },
+    "FileFlagsMask": "3f",
+    "FileFlags ": "00",
+    "FileOS": "040004",
+    "FileType": "01",
+    "FileSubType": "00"
+  },
+  "StringFileInfo": {
+    "CompanyName": "Jungbusch Softwarschmiede",
+    "FileDescription": "auditorium.jungbusch-softwareschmie.de",
+    "FileVersion": "V1.0",
+    "LegalCopyright": "MIT License",
+    "ProductName": "Auditorium",
+    "ProductVersion": "V1.0"
+  },
+  "VarFileInfo": {
+    "Translation": {
+      "LangID": "0407",
+      "CharsetID": "04B0"
+    }
+  },
+  "ManifestPath": ""
+}

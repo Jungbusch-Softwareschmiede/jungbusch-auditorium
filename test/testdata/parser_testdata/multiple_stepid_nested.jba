@@ -1,0 +1,12 @@
+{
+    id:"testmodul"
+    module:"ExecuteCommand"
+    command:"test"
+    passed: if ("test")
+    {
+           id:"testmodul"
+           module:"ExecuteCommand"
+           command:"test"
+           passed: if ("test")
+        },
+},

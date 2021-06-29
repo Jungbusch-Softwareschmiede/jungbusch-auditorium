@@ -1,0 +1,18 @@
+{ // test
+    id:"testmodule"
+    module:"ExecuteCommand"
+    command:"test"
+    passed: if ("test")
+    { // test
+        id:"testmodule2"
+        module:"ExecuteCommand"
+        command:"test"
+        passed: if ("test")
+    }, // test
+    { // test
+        id:"testmodule3"
+        module:"ExecuteCommand"
+        command:"test"
+        passed: if ("test")
+    }, // test
+}, // test

@@ -1,0 +1,6 @@
+{
+    id:"testmodule"
+    module:"ExecuteCommand"
+    command:"test"
+    %result% = "test"
+},

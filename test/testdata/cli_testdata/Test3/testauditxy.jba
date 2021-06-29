@@ -1,0 +1,5 @@
+{
+    module: "ExecuteCommand"
+    command:"hostname"
+    passed: if("%result% != """)
+},

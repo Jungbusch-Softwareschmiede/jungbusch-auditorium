@@ -1,0 +1,10 @@
+{
+    id:"testmodule"
+    module:"Script"
+    script:`meinscript
+    hallo1
+    hallo2
+    hallo3
+    hallo4
+    hallo5
+    hallo6

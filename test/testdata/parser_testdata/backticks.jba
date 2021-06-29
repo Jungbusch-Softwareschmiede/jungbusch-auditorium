@@ -1,0 +1,7 @@
+{
+    condition: if(`%test% == "true"`)
+    id:"testmodule"
+    module:"ExecuteCommand"
+    command:"test"
+    passed: if (`%result% == "test"`)
+},
