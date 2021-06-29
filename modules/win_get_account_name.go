@@ -78,7 +78,7 @@ func (mh *MethodHandler) GetAccountName(params ParameterMap) (r ModuleResult) {
 }
 
 func (mh *MethodHandler) GetAccountNameValidate(params ParameterMap) error {
-	if s.ToLower(params["typ"]) != "guest" && s.ToLower(params["typ"]) != "user" {
+	if s.ToLower(params["type"]) != "guest" && s.ToLower(params["type"]) != "user" {
 		return errors.New("Der Accounttyp ist falsch geschrieben oder wird nicht unterstützt. Bitte 'Guest' oder 'User' verwenden.")
 	}
 	return nil
