@@ -107,9 +107,9 @@ Siehe [Jungbusch-Documentation](https://github.com/Jungbusch-Softwareschmiede/ju
 
 ## Roadmap
 
-1. Übersetzen der Doku/des Handbuchs in Englisch
+1. Vollständiges Überarbeiten der Programm-Konfiguration und Auslagern in ein Go-Module (work in progress)
 
-2. Vereinheitlichen und Auslagern der Konfiguration in ein Go-Module
+2. Übersetzen der Doku/des Handbuchs in Englisch
 
 3. Die Möglichkeit, Variablennamen in der Audit-Konfiguration zu escapen, da sonst Windows-Umgebungspfade als Variablen erkannt werden
 
